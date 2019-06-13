@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7E3884C922B21996009D2B46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884C822B21996009D2B46 /* main.swift */; };
+		7E3884D022B21A17009D2B46 /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884CF22B21A17009D2B46 /* Employees.swift */; };
+		7E3884D222B21A62009D2B46 /* Librarian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884D122B21A62009D2B46 /* Librarian.swift */; };
+		7E3884D822B21B49009D2B46 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884D722B21B49009D2B46 /* Users.swift */; };
+		7E3884DA22B21B5B009D2B46 /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884D922B21B5B009D2B46 /* Teachers.swift */; };
+		7E3884DC22B21B68009D2B46 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884DB22B21B68009D2B46 /* Students.swift */; };
+		7E3884DE22B21B87009D2B46 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884DD22B21B87009D2B46 /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		7E3884C522B21996009D2B46 /* LibraryManagementSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibraryManagementSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3884C822B21996009D2B46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7E3884CF22B21A17009D2B46 /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		7E3884D122B21A62009D2B46 /* Librarian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librarian.swift; sourceTree = "<group>"; };
+		7E3884D722B21B49009D2B46 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		7E3884D922B21B5B009D2B46 /* Teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
+		7E3884DB22B21B68009D2B46 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		7E3884DD22B21B87009D2B46 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				7E3884C822B21996009D2B46 /* main.swift */,
+				7E3884CF22B21A17009D2B46 /* Employees.swift */,
+				7E3884D122B21A62009D2B46 /* Librarian.swift */,
+				7E3884D722B21B49009D2B46 /* Users.swift */,
+				7E3884D922B21B5B009D2B46 /* Teachers.swift */,
+				7E3884DB22B21B68009D2B46 /* Students.swift */,
+				7E3884DD22B21B87009D2B46 /* Books.swift */,
 			);
 			path = LibraryManagementSystem;
 			sourceTree = "<group>";
@@ -119,7 +137,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3884D822B21B49009D2B46 /* Users.swift in Sources */,
+				7E3884DA22B21B5B009D2B46 /* Teachers.swift in Sources */,
+				7E3884D222B21A62009D2B46 /* Librarian.swift in Sources */,
+				7E3884DE22B21B87009D2B46 /* Books.swift in Sources */,
+				7E3884DC22B21B68009D2B46 /* Students.swift in Sources */,
 				7E3884C922B21996009D2B46 /* main.swift in Sources */,
+				7E3884D022B21A17009D2B46 /* Employees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
