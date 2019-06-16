@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+enum Subjects {
+    case None, Math, Science, English, French, Biology, Physics, Computer_Science, Chemistry
+}
+
+class Teachers {
+    var subject_taken: Subjects
+    var joining_date: Date
+    
+    init() {
+        self.subject_taken = Subjects.None
+        self.joining_date = Date()
+    }
+}

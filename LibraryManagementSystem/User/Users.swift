@@ -8,3 +8,24 @@
 
 import Foundation
 
+struct Users{
+    var user_id: Int!
+    var first_name: String!
+    var last_name: String?
+    var email: String!
+    var address: Address
+    var phone_number: Int?
+    
+    init() {
+        self.user_id = Int()
+        self.first_name = String()
+        self.last_name = String()
+        self.email = String()
+        self.address = Address()
+        self.phone_number = Int()
+        
+    }
+
+}
+
+

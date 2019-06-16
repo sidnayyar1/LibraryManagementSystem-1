@@ -7,3 +7,11 @@
 //
 
 import Foundation
+class Librarian{
+    
+    var room_number: Int!
+    
+    init() {
+        self.room_number = Int()
+    }
+}

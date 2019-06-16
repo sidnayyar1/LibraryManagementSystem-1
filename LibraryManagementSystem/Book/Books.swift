@@ -8,3 +8,22 @@
 
 import Foundation
 
+enum Book_type {
+    case None, Non_Medical, Medical, Commerce, Arts
+    case Magazine,Article,Newspaper,Journals
+    
+}
+
+class Books{
+    var book_id: Int
+    var book_type: Book_type
+    
+    init() {
+    
+        self.book_id = Int()
+        
+        self.book_type = Book_type.None
+        
+    }
+    
+}

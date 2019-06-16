@@ -14,6 +14,7 @@
 		7E3884DA22B21B5B009D2B46 /* Teachers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884D922B21B5B009D2B46 /* Teachers.swift */; };
 		7E3884DC22B21B68009D2B46 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884DB22B21B68009D2B46 /* Students.swift */; };
 		7E3884DE22B21B87009D2B46 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3884DD22B21B87009D2B46 /* Books.swift */; };
+		7EF922A922B5E05400DB4971 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF922A822B5E05400DB4971 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		7E3884D922B21B5B009D2B46 /* Teachers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teachers.swift; sourceTree = "<group>"; };
 		7E3884DB22B21B68009D2B46 /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
 		7E3884DD22B21B87009D2B46 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		7EF922A822B5E05400DB4971 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				7E3884C822B21996009D2B46 /* main.swift */,
+				7EF922A722B5E02C00DB4971 /* Other */,
 				7EF922A622B5C14400DB4971 /* Book */,
 				7EF922A522B5C10900DB4971 /* User */,
 				7EF922A422B5C0ED00DB4971 /* Employee */,
@@ -102,6 +105,14 @@
 				7E3884DD22B21B87009D2B46 /* Books.swift */,
 			);
 			path = Book;
+			sourceTree = "<group>";
+		};
+		7EF922A722B5E02C00DB4971 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7EF922A822B5E05400DB4971 /* Address.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				7E3884DE22B21B87009D2B46 /* Books.swift in Sources */,
 				7E3884DC22B21B68009D2B46 /* Students.swift in Sources */,
 				7E3884C922B21996009D2B46 /* main.swift in Sources */,
+				7EF922A922B5E05400DB4971 /* Address.swift in Sources */,
 				7E3884D022B21A17009D2B46 /* Employees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
