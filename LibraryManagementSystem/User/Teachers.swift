@@ -12,12 +12,15 @@ enum Subjects {
     case None, Math, Science, English, French, Biology, Physics, Computer_Science, Chemistry
 }
 
-class Teachers {
+class Teachers: Users {
     var subject_taken: Subjects
     var joining_date: Date
     
-    init() {
+    override init() {
         self.subject_taken = Subjects.None
         self.joining_date = Date()
+    }
+    override func display() {
+        <#code#>
     }
 }

@@ -8,21 +8,21 @@
 
 import Foundation
 
-class Student{
+class Student: Users {
     
     var borrower: Dictionary<Int,String>
     var student_enrollement_Number: Int!
     var class_name: String!
     
-    init() {
+    override init() {
         
         self.borrower = Dictionary<Int,String>()
         self.student_enrollement_Number = Int()
         self.class_name = String()
-        
-    
     }
-    
+    override func display() {
+        <#code#>
+    }
     
     
     

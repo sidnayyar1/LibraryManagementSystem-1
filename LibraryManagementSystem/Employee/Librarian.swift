@@ -7,11 +7,14 @@
 //
 
 import Foundation
-class Librarian{
+class Librarian: Employees {
     
     var room_number: Int!
     
-    init() {
+    override init() {
         self.room_number = Int()
+    }
+    override func display() {
+        <#code#>
     }
 }
