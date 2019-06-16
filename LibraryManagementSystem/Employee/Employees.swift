@@ -7,7 +7,9 @@
 //
 
 import Foundation
-class Employees {
+class Employees: Display {
+   
+    
     var employee_id: Int!
     var employee_first_name: String!
     var employee_last_name: String?
@@ -22,6 +24,11 @@ class Employees {
         self.employee_email = String()
         self.employee_contact = Int()
         self.joining_date = Date()
+        
+    }
+    
+    func display() {
+    
         
     }
     

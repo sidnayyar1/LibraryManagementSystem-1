@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Users{
+struct Users: Display{
+  
     var user_id: Int!
     var first_name: String!
     var last_name: String?
@@ -26,6 +27,11 @@ struct Users{
         
     }
 
+    
+    func display() {
+        <#code#>
+    }
+    
 }
 
 

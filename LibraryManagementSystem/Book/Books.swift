@@ -14,7 +14,8 @@ enum Book_type {
     
 }
 
-class Books{
+class Books: Display{
+  
     var book_id: Int
     var book_type: Book_type
     
@@ -24,6 +25,9 @@ class Books{
         
         self.book_type = Book_type.None
         
+    }
+    func display() {
+        <#code#>
     }
     
 }
