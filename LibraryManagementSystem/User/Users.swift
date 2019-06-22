@@ -10,20 +10,21 @@ import Foundation
 
 class Users: Display{
   
-    var user_id: Int!
-    var first_name: String!
-    var last_name: String?
-    var email: String!
+    var user_id: Int
+    var first_name: String
+    var last_name: String
+    var email: String
     var address: Address
-    var phone_number: Int?
+    var phone_number: Int
     
-    init() {
-        self.user_id = Int()
-        self.first_name = String()
-        self.last_name = String()
-        self.email = String()
-        self.address = Address()
-        self.phone_number = Int()
+   
+    init(u_id: Int, f_name: String, l_name: String, email: String, addr: Address, ph_num: Int) {
+        self.user_id = u_id
+        self.first_name = f_name
+        self.last_name = l_name
+        self.email = email
+        self.address = addr
+        self.phone_number = ph_num
         
     }
 
