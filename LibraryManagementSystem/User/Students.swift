@@ -26,6 +26,7 @@ class Student: Users {
     override func display() -> String{
         let data = "data"
         return data
+    print("Student data")
     }
     
     
