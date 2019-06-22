@@ -7,6 +7,16 @@
 //
 
 import Foundation
+//// input output
+//print("Please Enter your favorite programming language")
+//let name = readLine()
+//print("Your favorite programming language is \(name!).")
+//
+//var intVal:Int
+//
+//if let i = readLine(){ //keyboard
+//    intVal = Int(i)!
+//    print(intVal)
+//}
 
-print("Hello, World!")
 

@@ -16,11 +16,13 @@ class Teachers: Users {
     var subject_taken: Subjects
     var joining_date: Date
     
-    override init() {
+   init() {
         self.subject_taken = Subjects.None
         self.joining_date = Date()
     }
-    override func display() {
-        <#code#>
+    override func display() -> String{
+        var data = "data"
+        return data
+        
     }
 }

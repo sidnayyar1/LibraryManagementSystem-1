@@ -8,7 +8,7 @@
 
 import Foundation
 protocol Display {
-    func display()
+    func display() -> String
     
     
 }

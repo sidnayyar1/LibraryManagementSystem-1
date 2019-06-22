@@ -14,14 +14,17 @@ class Student: Users {
     var student_enrollement_Number: Int!
     var class_name: String!
     
-    override init() {
+   init() {
         
         self.borrower = Dictionary<Int,String>()
         self.student_enrollement_Number = Int()
         self.class_name = String()
+       
+    
     }
-    override func display() {
-        <#code#>
+    override func display() -> String{
+        let data = "data"
+        return data
     }
     
     

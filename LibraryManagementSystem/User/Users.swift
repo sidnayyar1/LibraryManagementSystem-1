@@ -27,8 +27,9 @@ class Users: Display{
         
     }
 
-    func display() {
-        <#code#>
+    func display() -> String{
+        var data = "data"
+        return data
     }
     
 }

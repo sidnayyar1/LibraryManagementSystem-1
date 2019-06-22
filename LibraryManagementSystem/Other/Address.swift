@@ -8,6 +8,8 @@
 
 import Foundation
 struct Address: Display{
+  
+    
     
     var suitNumber: Int!
     var streetName: String!
@@ -20,7 +22,10 @@ struct Address: Display{
         self.city = newCity
     }
     
-    func display() {
+    func display() -> String {
+        
+        let d = "abc"
+        return d
     }
     
 }

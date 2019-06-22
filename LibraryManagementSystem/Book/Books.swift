@@ -26,8 +26,9 @@ class Books: Display{
         self.book_type = Book_type.None
         
     }
-    func display() {
-        <#code#>
+    func display() -> String {
+       var a = "abc"
+        return a
     }
     
 }
